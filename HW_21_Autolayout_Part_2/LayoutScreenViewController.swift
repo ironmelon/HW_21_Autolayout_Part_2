@@ -22,12 +22,14 @@ class LayoutScreenViewController: UIViewController {
     let widthColorView: Float = 80.0
     let minValueSlider: Float = 10.0
     let maxValueSlider: Float = 110.0
-    
+
+    //MARK: -
     override func viewDidLoad() {
         super.viewDidLoad()
         setupView()
     }
 
+    //MARK: -
     private func setupView() {
         distanceSlider.minimumValue = minValueSlider
         distanceSlider.maximumValue = maxValueSlider
@@ -55,6 +57,7 @@ class LayoutScreenViewController: UIViewController {
         return CGFloat(width - (distanceSlider.value + widthColorView * 2)) / 2
     }
 
+    //MARK: - Actions
     @IBAction private func distanceValueChanged(_ sender: Any) {
         lcLeftMargin.constant = calculateConstraintConstant()
         lcRightMargin.constant = calculateConstraintConstant()
@@ -63,8 +66,11 @@ class LayoutScreenViewController: UIViewController {
     @IBAction private func setupButton(_ sender: Any) {
         updateDownMargin()
     }
+
+    @IBAction private func backToFirstScreen(_ sender: UIStoryboardSegue) {}
 }
 
+//MARK: - Extensions
 extension LayoutScreenViewController: UITextFieldDelegate {
     func textFieldShouldReturn(_ textField: UITextField) -> Bool {
         hideKeyboard()

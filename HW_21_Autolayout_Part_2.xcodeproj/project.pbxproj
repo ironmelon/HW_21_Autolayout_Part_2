@@ -12,6 +12,7 @@
 		E360D2E02149D78B00E515A6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E360D2DF2149D78B00E515A6 /* Assets.xcassets */; };
 		E360D2E32149D78B00E515A6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E360D2E12149D78B00E515A6 /* LaunchScreen.storyboard */; };
 		E360D2EB2149DC6400E515A6 /* LayoutScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E360D2EA2149DC6400E515A6 /* LayoutScreenViewController.swift */; };
+		E3B1D95F21531DB700FF54E4 /* ChessViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3B1D95E21531DB700FF54E4 /* ChessViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		E360D2E22149D78B00E515A6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E360D2E42149D78B00E515A6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E360D2EA2149DC6400E515A6 /* LayoutScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LayoutScreenViewController.swift; sourceTree = "<group>"; };
+		E3B1D95E21531DB700FF54E4 /* ChessViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChessViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 			children = (
 				E360D2D82149D77200E515A6 /* AppDelegate.swift */,
 				E360D2EA2149DC6400E515A6 /* LayoutScreenViewController.swift */,
+				E3B1D95E21531DB700FF54E4 /* ChessViewController.swift */,
 				E360D2DC2149D77200E515A6 /* Main.storyboard */,
 				E360D2DF2149D78B00E515A6 /* Assets.xcassets */,
 				E360D2E12149D78B00E515A6 /* LaunchScreen.storyboard */,
@@ -137,6 +140,7 @@
 			files = (
 				E360D2EB2149DC6400E515A6 /* LayoutScreenViewController.swift in Sources */,
 				E360D2D92149D77200E515A6 /* AppDelegate.swift in Sources */,
+				E3B1D95F21531DB700FF54E4 /* ChessViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
